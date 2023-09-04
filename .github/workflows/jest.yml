@@ -2,6 +2,7 @@ name: CI Jest Tests
 on: [push, pull_request]
 jobs:
   build:
+    name: ci_jest
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
